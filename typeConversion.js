@@ -40,3 +40,10 @@ console.log("DataType of num after conversion " + typeof num);
 let number = parseFloat("34.02695");
 console.log(number, typeof number);
 console.log(number.toFixed(3), typeof number);
+
+//Type Coercion
+
+let mystr = "698";
+let mynum = 34;
+
+console.log(mystr + mynum);
