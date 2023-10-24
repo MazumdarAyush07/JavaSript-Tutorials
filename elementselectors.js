@@ -5,7 +5,7 @@ Element Selectors can be of 2 types:
 1. Single Element Selector.
 2. Multi Element Selector.
 */
-
+console.log("This is the tutorial for element selectors");
 //Single Element Selector:
 let element = document.getElementById("head");
 //element = element.className; To retrieve the class name
