@@ -18,3 +18,9 @@ document.getElementById("dummy").addEventListener("mouseover", function (e) {
   console.log(e.offsetX);
   console.log(e.offsetY);
 });
+
+let btn = document.getElementById("btn");
+btn.addEventListener("click", function (e) {
+  console.log("Event", e);
+  e.preventDefault(); //This is used to counter the default behavior of a submit button.
+});
